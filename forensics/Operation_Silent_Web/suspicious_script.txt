@@ -1,0 +1,23 @@
+<?php
+$O0O0O0O0O0 = base64_decode("WWVhci1tb250aC1kYXkgSG91cjo6bWludXRlOjpzZWNvbmQ="); // Decode a string
+$O0O0O0O0O1 = explode("::", str_replace("::", ":", str_replace(":", "::", $O0O0O0O0O0))); // Process the string
+$O0O0O0O0O2 = $O0O0O0O0O1[0] . "-" . $O0O0O0O0O1[1] . "-" . $O0O0O0O0O1[2] . " " . $O0O0O0O0O1[3] . ":" . $O0O0O0O0O1[4] . ":" . $O0O0O0O0O1[5]; // Format the date
+$O0O0O0O0O3 = date($O0O0O0O0O2);
+$O0O0O0O0O4 = "INC20250124";
+$O0O0O0O0O5 = base64_decode("SW50ZXJuYWwgV2ViIFNlcnZlcg==");
+$O0O0O0O0O6 = base64_decode("SGlnaA==");
+$O0O0O0O0O7 = base64_decode("Q3liZXJTZWMgQW5hbHlzdCBUZWFt");
+$O0O0O0O0O8 = base64_decode("c3VzcGljaW91c19zY3JpcHQucGhw");
+$O0O0O0O0O9 = base64_decode("RmlsZSBjb250YWlucyBvYmZ1c2NhdGVkIGNvZGUgbGVhZGluZyB0byBhbiB1bmtub3duIGV4dGVybmFsIHJlc291cmNlLg==");
+$O0O0O0O0O10 = "192.168.1.105";
+$O0O0O0O0O11 = base64_decode("TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgMTAuMDsgV2luNjQ7IHg2NCkgQXBwbGVXZWJLaXQvNTM3LjM2");
+$O0O0O0O0O12 = base64_decode("aHh4cHM6Ly9kMGNzLmdxcWdsZS5jMG0vZG9jdW1lbnQvZC8xazFGaTNRM3ozTUtmYlFlbW5TcnVLRjNJVjJndzNZUXdZZWpWT3h1dWZsQS9lZGl0P2hsPWZyJnRhYj10LjA=");
+
+function O0O0O0O0O13($O0O0O0O0O14) {
+    return base64_decode($O0O0O0O0O14);
+}
+
+
+$command = O0O0O0O0O13("VGhlIGZpbGUgY29udGFpbnMgYW4gYWR2YW5jZWQgb2JmdXNjYXRlZCBtYWx3YXJlIGNhcGFibGUgb2YgZXhmaWx0cmF0aW5nIHNlbnNpdGl2ZSBkYXRh"); 
+eval($command); 
+?>

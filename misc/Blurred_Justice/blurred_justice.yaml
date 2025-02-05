@@ -1,0 +1,24 @@
+challenge:
+  name: Blurred Justice
+  category: OSINT
+  Author: maria
+  difficulty: Medium
+  points: 200
+  description: >
+    The FBI is on the hunt for a dangerous cybercriminal, but they're keeping things under wraps. 
+    All you have to go on is a blurry photo and the trail of chaos he's left behind.
+
+    Your job? Uncover the national ID card country code and the country name of this elusive suspect. 
+    This criminal is rumored to be behind major cyberattacks, extortion schemes, and disruptions 
+    to critical infrastructure worldwide.
+
+    The numbers in the flag are the key: they reveal his national ID card country code and his 
+    country of origin.
+
+  flag_format: shellmates{04XXXXXXX3/country}
+  
+  hints:
+    - Look closely at the details in the image.
+    - can you identify who is in the picture?.
+
+  

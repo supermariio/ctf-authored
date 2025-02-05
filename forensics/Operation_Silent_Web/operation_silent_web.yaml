@@ -1,0 +1,14 @@
+challenge:
+  name: "Operation Silent Web"
+  category: "Forensics"
+  Author: "maria"
+  Points: 100
+  flag_format: "shellmates{}"
+  description: |
+    A major financial institution has reported suspicious activity on one of its internal web servers. The cybersecurity team discovered an obfuscated PHP script hidden deep within the server’s file system. Initial analysis suggests that it could be part of an ongoing cyber espionage campaign targeting high-value assets.
+
+    Your task as a digital forensic analyst is to investigate the PHP file and uncover its true purpose. The script appears heavily obfuscated, but by carefully analyzing and deconstructing the code, you may reveal hidden information. Deep within the script lies an unusual string resembling a web address, but something seems off—standard URL formatting rules don't apply.
+
+    Could this be a lead to an external command-and-control server, or perhaps a backdoor used by the attackers? Your mission is to follow the digital trail, analyze the obfuscation techniques, and piece together the evidence to trace the attackers before they strike again.
+
+    Time is of the essence—every second counts in stopping this cyber threat. Will you uncover the truth behind "Operation Silent Web"?

@@ -1,0 +1,17 @@
+challenge:
+  name: "Vault"
+  category: "Reverse Engineering"
+  author: "maria"
+  points: 500
+  flag_format: "shellmates{}"
+  description: |
+    Deep in the digital underground lies an ancient vault, its contents guarded by sophisticated security measures. Intelligence suggests it contains a crucial key needed to access the vault.
+    
+    The vault's lock mechanism employs advanced binary protection techniques, but rumors speak of a special key - one that combines both numbers and letters in an unexpected way.
+    
+    Your mission:
+    - Reverse engineer the vault's security mechanism
+    - Find the correct key to unlock the vault
+    - You will get the flag once you enter the correct key
+    
+    Note: Brute force attempts will be futile. Understanding the binary's behavior is key.

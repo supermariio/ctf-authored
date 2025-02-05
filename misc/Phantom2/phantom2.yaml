@@ -1,0 +1,16 @@
+challenge:
+  name: Phantom2
+  category: OSINT
+  Author: maria
+  Points: 250
+  flag_format: shellmates{his email}
+  description: >
+    After discovering Kadour Tan's developer profile, the investigation has reached a critical point. 
+    Intelligence suggests that before vanishing, Kadour used a specific email address to communicate 
+    with other members of the cybersecurity community. This email account may contain crucial 
+    information about the security incident.
+
+  mission: >
+    Your Mission: Using the information gathered from Kadour's developer profile in Phantom1, 
+    track down the email address they used for their cybersecurity activities. Sources indicate 
+    they used this email for bug bounty programs and security research communications.

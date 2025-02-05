@@ -1,0 +1,13 @@
+challenge:
+  name: "Torrent Trouble"
+  category: "Forensics"
+  author: "maria"
+  points: 500
+  flag_format: "shellmates{hxxxxxx_xxx_xxxxxxxrs}"
+  description: |
+    A mysterious individual in your society has been caught downloading suspicious files via torrent on the shared network. Their actions have raised alarms, 
+    and it's your job as the network investigator to uncover the truth.
+    
+    Using the provided network capture file, decode the clues hidden in the captured traffic to find the name of the file that was downloaded.
+    Beware of distracting noise in the network traffic—focus on the torrent connections to uncover the truth.
+    Can you catch the culprit before they vanish?
